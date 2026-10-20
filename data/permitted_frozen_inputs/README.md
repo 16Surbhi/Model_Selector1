@@ -1,0 +1,1 @@
+This directory is intentionally empty in the distributed archive. Add the exact study inputs here only if their provider terms or written permission authorize the intended use. Required filenames and field descriptions are in `../data_schema.json`.

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model Compass frozen study inputs",
+  "type": "object",
+  "requiredFiles": [
+    {
+      "path": "model-registry.json",
+      "description": "Frozen registry revision used to calculate normalized attributes and scores. Root object must contain a models array."
+    },
+    {
+      "path": "arena_snapshot_2026-10-08.json",
+      "description": "Agent Arena headline snapshot; models array with model identity, net_pct, and median_usd fields, plus snapshot metadata."
+    },
+    {
+      "path": "arena_full_2026-10-02.json",
+      "description": "Earlier Agent Arena snapshot used for sensitivity analysis; array of model rows with score_pct and median_usd fields."
+    }
+  ],
+  "optionalFiles": [
+    {
+      "path": "model-registry.seed.json",
+      "description": "Fallback registry seed required only if model-registry.json is absent; it does not replace the paper's frozen registry."
+    }
+  ],
+  "parserInputs": "Pinned parser outputs are included at experiments/support/intents.frozen.json and are not fetched at runtime.",
+  "provenance": "Every input must be accompanied by its source, retrieval date, license or terms, and SHA-256 digest before analysis."
+}

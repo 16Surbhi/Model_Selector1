@@ -1,0 +1,7 @@
+{
+  "name": "model-compass-research",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Frozen analysis code accompanying the Model Compass paper"
+}

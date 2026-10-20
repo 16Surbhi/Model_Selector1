@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the Model Compass paper when using this research archive."
+title: "Model Compass Research Archive"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Agrawal
+    given-names: Surbhi
+    email: surbhiagrwal.rvitm@rvei.edu.in
+  - family-names: Chouksey
+    given-names: Divy
+    email: divychouksey136@gmail.com
+abstract: >-
+  Frozen scoring implementation and evaluation scripts accompanying the
+  Model Compass foundation-model recommendation study. Restricted external
+  inputs are not included.
+keywords:
+  - foundation models
+  - model recommendation
+  - multi-attribute utility
+  - regret evaluation

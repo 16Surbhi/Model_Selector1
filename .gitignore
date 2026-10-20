@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Local frozen study inputs (third-party data requiring separate licensing)
+data/permitted_frozen_inputs/*.json
+!data/permitted_frozen_inputs/README.md
+
+# Build & execution artifacts
+*.log
+*.aux
+*.out
+*.fls
+*.fdb_latexmk
+*.xdv
+*.synctex.gz
+*.bbl
+*.blg
+
+# System & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
